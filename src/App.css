@@ -1,0 +1,59 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.inner-container{
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 5%;
+  background-color: rgb(18, 47, 27);
+  border-radius: 15px;
+
+}
+h1{
+  margin-block: 10px;
+  font-weight: 900;
+}
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
+
+form>p{
+  font-size: 5rem;
+  color: #e1e7e7;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  color: rgb(10, 7, 7);
+}
+a{
+  color: rgb(38, 18, 56);
+  font-weight: 600;
+}
