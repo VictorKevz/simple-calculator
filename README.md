@@ -34,15 +34,15 @@ cd simple-calculator
 ```
 
 3. Install dependencies:
-
-```
+npm create vite@latest
+select React
+select Javascript
 npm install
 ```
 
 4. Start the development server:
 
-```
-npm start
+npm run dev
 ```
 
 5. Open your browser and visit `http://localhost:3000` to view the application.
